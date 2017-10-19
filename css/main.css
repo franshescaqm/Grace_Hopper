@@ -1,5 +1,36 @@
-p {
-  font-family: monospace;
+body {
+  font-family: sans-serif;
   font-style: normal;
-  font-size: 15px;
+}
+
+/*Se esta ajustando el parrafo para mejor visualozaión de web para usuario */
+.biography{
+  width: 72%;
+  display: inline-block;
+ font-size: 14px;
+  line-height: 1.3;
+}
+
+/*Se esta estilizando la tabla de Grace Hoper (color, tamaño, etc)*/
+
+.sumary{
+display: inline-block;
+vertical-align: top;
+}
+
+.sumary-table{
+border: 1px solid #a2a9b1;
+background-color: #f8f9fa;
+}
+
+.sumary-table thead th{
+background-color: #B0C4DE;
+}
+
+.sumary-table tbody tr:first-child{
+  text-align: center;
+}
+
+.sumary-table tbody th{
+  text.align: left;
 }
